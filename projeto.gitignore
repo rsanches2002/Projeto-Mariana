@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Arquivos gerados
+build/
+dist/
+
+# Configurações locais e segredos
+.env
+.env.*
+
+# Exceção para arquivo de exemplo
+!.env.example
+
+# Configurações locais do Vercel
+.vercel/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
