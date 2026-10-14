@@ -1086,7 +1086,7 @@ body {
   .cta-section {
     display: block;
     height: auto;
-    min-height: 0;
+    min-height: 620px;
     max-height: none;
     padding: 40px 18px;
     overflow: visible;
@@ -1118,12 +1118,12 @@ body {
 }
 
 /* MOBILE STICKY BAR */
-.sticky-bar {
+/* .sticky-bar {
   display: none;
-}
+} */
 
 @media screen and (max-width: 600px) {
-  .sticky-bar {
+  /* .sticky-bar {
     display: flex;
     position: fixed;
     bottom: 0;
@@ -1137,9 +1137,9 @@ body {
     padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
     gap: 10px;
     z-index: 100;
-  }
+  } */
 
-  .sticky-bar .btn-gold,
+  /* .sticky-bar .btn-gold,
   .sticky-bar .btn-outline {
     flex: 1;
     width: auto;
@@ -1150,9 +1150,9 @@ body {
     padding: 12px 8px;
     font-size: 0.85rem;
     white-space: nowrap;
-  }
+  } */
   body {
-    padding-bottom: 200px;
+    padding-bottom: 90px;
   }
 }
 
